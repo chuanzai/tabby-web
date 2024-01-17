@@ -15,7 +15,7 @@ DEBUG = bool(os.getenv("DEBUG", False))
 ALLOWED_HOSTS = ["*"]
 USE_X_FORWARDED_HOST = True
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
-SECURE_SSL_REDIRECT = True
+# SECURE_SSL_REDIRECT = True
 
 # Application definition
 
